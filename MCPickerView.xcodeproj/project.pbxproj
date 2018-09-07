@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCB6799214244F20094E664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB6798214244F20094E664 /* AppDelegate.m */; };
+		4BCB679C214244F20094E664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB679B214244F20094E664 /* ViewController.m */; };
+		4BCB679F214244F20094E664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB679D214244F20094E664 /* Main.storyboard */; };
+		4BCB67A1214244F40094E664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB67A0214244F40094E664 /* Assets.xcassets */; };
+		4BCB67A4214244F40094E664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB67A2214244F40094E664 /* LaunchScreen.storyboard */; };
+		4BCB67A7214244F40094E664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67A6214244F40094E664 /* main.m */; };
+		4BCB67B1214244F40094E664 /* MCPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67B0214244F40094E664 /* MCPickerViewTests.m */; };
+		4BCB67BC214244F40094E664 /* MCPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67BB214244F40094E664 /* MCPickerViewUITests.m */; };
+		4BCB67D7214245E30094E664 /* MCPickerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */; };
+		4BCB67D8214245E30094E664 /* MCPickerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D2214245E30094E664 /* MCPickerListView.m */; };
+		4BCB67D9214245E30094E664 /* MCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D3214245E30094E664 /* MCPickerView.m */; };
+		4BCB67DA214245E30094E664 /* MCClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB67D4214245E30094E664 /* MCClose@2x.png */; };
+		4BCB67DB214245E30094E664 /* MCPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D5214245E30094E664 /* MCPickerModel.m */; };
+		4BCB67DC214245E30094E664 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCB67AD214244F40094E664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCB678C214244F10094E664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCB6793214244F10094E664;
+			remoteInfo = MCPickerView;
+		};
+		4BCB67B8214244F40094E664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCB678C214244F10094E664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCB6793214244F10094E664;
+			remoteInfo = MCPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCB6794214244F10094E664 /* MCPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCB6797214244F10094E664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BCB6798214244F20094E664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BCB679A214244F20094E664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BCB679B214244F20094E664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BCB679E214244F20094E664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCB67A0214244F40094E664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BCB67A3214244F40094E664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BCB67A5214244F40094E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCB67A6214244F40094E664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BCB67AC214244F40094E664 /* MCPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCB67B0214244F40094E664 /* MCPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPickerViewTests.m; sourceTree = "<group>"; };
+		4BCB67B2214244F40094E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCB67B7214244F40094E664 /* MCPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCB67BB214244F40094E664 /* MCPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPickerViewUITests.m; sourceTree = "<group>"; };
+		4BCB67BD214244F40094E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCB67CC214245E30094E664 /* MCPickerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerHeaderView.h; sourceTree = "<group>"; };
+		4BCB67CD214245E30094E664 /* MCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerView.h; sourceTree = "<group>"; };
+		4BCB67CE214245E30094E664 /* MCPickerListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerListView.h; sourceTree = "<group>"; };
+		4BCB67CF214245E30094E664 /* MCPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerModel.h; sourceTree = "<group>"; };
+		4BCB67D0214245E30094E664 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerHeaderView.m; sourceTree = "<group>"; };
+		4BCB67D2214245E30094E664 /* MCPickerListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerListView.m; sourceTree = "<group>"; };
+		4BCB67D3214245E30094E664 /* MCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerView.m; sourceTree = "<group>"; };
+		4BCB67D4214245E30094E664 /* MCClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MCClose@2x.png"; sourceTree = "<group>"; };
+		4BCB67D5214245E30094E664 /* MCPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerModel.m; sourceTree = "<group>"; };
+		4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCB6791214244F10094E664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67A9214244F40094E664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67B4214244F40094E664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCB678B214244F10094E664 = {
+			isa = PBXGroup;
+			children = (
+				4BCB6796214244F10094E664 /* MCPickerView */,
+				4BCB67AF214244F40094E664 /* MCPickerViewTests */,
+				4BCB67BA214244F40094E664 /* MCPickerViewUITests */,
+				4BCB6795214244F10094E664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCB6795214244F10094E664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB6794214244F10094E664 /* MCPickerView.app */,
+				4BCB67AC214244F40094E664 /* MCPickerViewTests.xctest */,
+				4BCB67B7214244F40094E664 /* MCPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCB6796214244F10094E664 /* MCPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB6797214244F10094E664 /* AppDelegate.h */,
+				4BCB6798214244F20094E664 /* AppDelegate.m */,
+				4BCB679A214244F20094E664 /* ViewController.h */,
+				4BCB679B214244F20094E664 /* ViewController.m */,
+				4BCB67CB214245E30094E664 /* MCPicker */,
+				4BCB679D214244F20094E664 /* Main.storyboard */,
+				4BCB67A0214244F40094E664 /* Assets.xcassets */,
+				4BCB67A2214244F40094E664 /* LaunchScreen.storyboard */,
+				4BCB67A5214244F40094E664 /* Info.plist */,
+				4BCB67A6214244F40094E664 /* main.m */,
+			);
+			path = MCPickerView;
+			sourceTree = "<group>";
+		};
+		4BCB67AF214244F40094E664 /* MCPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB67B0214244F40094E664 /* MCPickerViewTests.m */,
+				4BCB67B2214244F40094E664 /* Info.plist */,
+			);
+			path = MCPickerViewTests;
+			sourceTree = "<group>";
+		};
+		4BCB67BA214244F40094E664 /* MCPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB67BB214244F40094E664 /* MCPickerViewUITests.m */,
+				4BCB67BD214244F40094E664 /* Info.plist */,
+			);
+			path = MCPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		4BCB67CB214245E30094E664 /* MCPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4BCB67CC214245E30094E664 /* MCPickerHeaderView.h */,
+				4BCB67CD214245E30094E664 /* MCPickerView.h */,
+				4BCB67CE214245E30094E664 /* MCPickerListView.h */,
+				4BCB67CF214245E30094E664 /* MCPickerModel.h */,
+				4BCB67D0214245E30094E664 /* MyCollectionViewCell.h */,
+				4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */,
+				4BCB67D2214245E30094E664 /* MCPickerListView.m */,
+				4BCB67D3214245E30094E664 /* MCPickerView.m */,
+				4BCB67D4214245E30094E664 /* MCClose@2x.png */,
+				4BCB67D5214245E30094E664 /* MCPickerModel.m */,
+				4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */,
+			);
+			path = MCPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCB6793214244F10094E664 /* MCPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCB67C0214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerView" */;
+			buildPhases = (
+				4BCB6790214244F10094E664 /* Sources */,
+				4BCB6791214244F10094E664 /* Frameworks */,
+				4BCB6792214244F10094E664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCPickerView;
+			productName = MCPickerView;
+			productReference = 4BCB6794214244F10094E664 /* MCPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCB67AB214244F40094E664 /* MCPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCB67C3214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerViewTests" */;
+			buildPhases = (
+				4BCB67A8214244F40094E664 /* Sources */,
+				4BCB67A9214244F40094E664 /* Frameworks */,
+				4BCB67AA214244F40094E664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCB67AE214244F40094E664 /* PBXTargetDependency */,
+			);
+			name = MCPickerViewTests;
+			productName = MCPickerViewTests;
+			productReference = 4BCB67AC214244F40094E664 /* MCPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BCB67B6214244F40094E664 /* MCPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCB67C6214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerViewUITests" */;
+			buildPhases = (
+				4BCB67B3214244F40094E664 /* Sources */,
+				4BCB67B4214244F40094E664 /* Frameworks */,
+				4BCB67B5214244F40094E664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCB67B9214244F40094E664 /* PBXTargetDependency */,
+			);
+			name = MCPickerViewUITests;
+			productName = MCPickerViewUITests;
+			productReference = 4BCB67B7214244F40094E664 /* MCPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCB678C214244F10094E664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MuYaQin;
+				TargetAttributes = {
+					4BCB6793214244F10094E664 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4BCB67AB214244F40094E664 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4BCB6793214244F10094E664;
+					};
+					4BCB67B6214244F40094E664 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4BCB6793214244F10094E664;
+					};
+				};
+			};
+			buildConfigurationList = 4BCB678F214244F10094E664 /* Build configuration list for PBXProject "MCPickerView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCB678B214244F10094E664;
+			productRefGroup = 4BCB6795214244F10094E664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCB6793214244F10094E664 /* MCPickerView */,
+				4BCB67AB214244F40094E664 /* MCPickerViewTests */,
+				4BCB67B6214244F40094E664 /* MCPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCB6792214244F10094E664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCB67A4214244F40094E664 /* LaunchScreen.storyboard in Resources */,
+				4BCB67DA214245E30094E664 /* MCClose@2x.png in Resources */,
+				4BCB67A1214244F40094E664 /* Assets.xcassets in Resources */,
+				4BCB679F214244F20094E664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67AA214244F40094E664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67B5214244F40094E664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCB6790214244F10094E664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCB679C214244F20094E664 /* ViewController.m in Sources */,
+				4BCB67D7214245E30094E664 /* MCPickerHeaderView.m in Sources */,
+				4BCB67D9214245E30094E664 /* MCPickerView.m in Sources */,
+				4BCB67A7214244F40094E664 /* main.m in Sources */,
+				4BCB67D8214245E30094E664 /* MCPickerListView.m in Sources */,
+				4BCB67DB214245E30094E664 /* MCPickerModel.m in Sources */,
+				4BCB67DC214245E30094E664 /* MyCollectionViewCell.m in Sources */,
+				4BCB6799214244F20094E664 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67A8214244F40094E664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCB67B1214244F40094E664 /* MCPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCB67B3214244F40094E664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCB67BC214244F40094E664 /* MCPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCB67AE214244F40094E664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCB6793214244F10094E664 /* MCPickerView */;
+			targetProxy = 4BCB67AD214244F40094E664 /* PBXContainerItemProxy */;
+		};
+		4BCB67B9214244F40094E664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCB6793214244F10094E664 /* MCPickerView */;
+			targetProxy = 4BCB67B8214244F40094E664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCB679D214244F20094E664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCB679E214244F20094E664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BCB67A2214244F40094E664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCB67A3214244F40094E664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCB67BE214244F40094E664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BCB67BF214244F40094E664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCB67C1214244F40094E664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BCB67C2214244F40094E664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BCB67C4214244F40094E664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCPickerView.app/MCPickerView";
+			};
+			name = Debug;
+		};
+		4BCB67C5214244F40094E664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MCPickerView.app/MCPickerView";
+			};
+			name = Release;
+		};
+		4BCB67C7214244F40094E664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MCPickerView;
+			};
+			name = Debug;
+		};
+		4BCB67C8214244F40094E664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VRQMS6TMZ;
+				INFOPLIST_FILE = MCPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leadu.MCPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MCPickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCB678F214244F10094E664 /* Build configuration list for PBXProject "MCPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCB67BE214244F40094E664 /* Debug */,
+				4BCB67BF214244F40094E664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCB67C0214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCB67C1214244F40094E664 /* Debug */,
+				4BCB67C2214244F40094E664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCB67C3214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCB67C4214244F40094E664 /* Debug */,
+				4BCB67C5214244F40094E664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCB67C6214244F40094E664 /* Build configuration list for PBXNativeTarget "MCPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCB67C7214244F40094E664 /* Debug */,
+				4BCB67C8214244F40094E664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCB678C214244F10094E664 /* Project object */;
+}

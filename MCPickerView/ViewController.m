@@ -46,7 +46,7 @@
 {
     //初始化数据
     self.province = [NSMutableArray array];
-    for (int i=0; i<5; i++) {
+    for (int i=0; i<10; i++) {
         MCPickerModel *model = [[MCPickerModel alloc]init];
         model.name = [NSString stringWithFormat:@"安徽省%d",i];
         model.pid = @"123";
@@ -67,7 +67,7 @@
     
     //初始化数据
     self.province = [NSMutableArray array];
-    for (int i=0; i<5; i++) {
+    for (int i=0; i<10; i++) {
         MCPickerModel *model = [[MCPickerModel alloc]init];
         model.name = [NSString stringWithFormat:@"安徽省%d",i];
         model.pid = @"123";

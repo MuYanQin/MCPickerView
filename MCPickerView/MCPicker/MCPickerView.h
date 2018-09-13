@@ -12,7 +12,7 @@
 @protocol MCPickerViewDelegate<NSObject>
 
 /**
- 点击回调的代理时间
+ 点击回调Cell的回调
 
  @param MCPickerView MCPickerView description
  @param Row 点击的第一个视图
@@ -20,6 +20,13 @@
  */
 - (void)MCPickerView:(MCPickerView *)MCPickerView didSelcetedRow:(NSInteger)Row  value:(MCPickerModel *)value;
 
+
+/**
+ 选择完成的回调
+
+ @param MCPickerView MCPickerView description
+ @param complete 选择完成拼接的字符串
+ */
 - (void)MCPickerView:(MCPickerView *)MCPickerView complete:(NSString *)complete;
 @end
 @interface MCPickerView : UIView

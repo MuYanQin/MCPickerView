@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B7663A4214A43EF0073F7D8 /* addr.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7663A3214A43EF0073F7D8 /* addr.json */; };
+		4BBB768C21E1A895008E270D /* addr.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB768421E1A895008E270D /* addr.json */; };
+		4BBB768D21E1A895008E270D /* MCPickerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB768621E1A895008E270D /* MCPickerHeaderView.m */; };
+		4BBB768E21E1A895008E270D /* MCPickerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB768721E1A895008E270D /* MCPickerListView.m */; };
+		4BBB768F21E1A895008E270D /* MCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB768821E1A895008E270D /* MCPickerView.m */; };
+		4BBB769021E1A895008E270D /* MCClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBB768921E1A895008E270D /* MCClose@2x.png */; };
+		4BBB769121E1A895008E270D /* MCPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB768A21E1A895008E270D /* MCPickerModel.m */; };
+		4BBB769221E1A895008E270D /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB768B21E1A895008E270D /* MyCollectionViewCell.m */; };
+		4BBB76A921E1A933008E270D /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB769721E1A933008E270D /* MJPropertyType.m */; };
+		4BBB76AA21E1A933008E270D /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB769A21E1A933008E270D /* NSObject+MJKeyValue.m */; };
+		4BBB76AB21E1A933008E270D /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB769B21E1A933008E270D /* MJProperty.m */; };
+		4BBB76AC21E1A933008E270D /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB769D21E1A933008E270D /* NSObject+MJCoding.m */; };
+		4BBB76AD21E1A933008E270D /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB769F21E1A933008E270D /* MJExtensionConst.m */; };
+		4BBB76AE21E1A933008E270D /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB76A021E1A933008E270D /* NSObject+MJProperty.m */; };
+		4BBB76AF21E1A933008E270D /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB76A221E1A933008E270D /* NSObject+MJClass.m */; };
+		4BBB76B021E1A933008E270D /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB76A321E1A933008E270D /* NSString+MJExtension.m */; };
+		4BBB76B121E1A933008E270D /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB76A421E1A933008E270D /* MJPropertyKey.m */; };
+		4BBB76B221E1A933008E270D /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB76A821E1A933008E270D /* MJFoundation.m */; };
 		4BCB6799214244F20094E664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB6798214244F20094E664 /* AppDelegate.m */; };
 		4BCB679C214244F20094E664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB679B214244F20094E664 /* ViewController.m */; };
 		4BCB679F214244F20094E664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB679D214244F20094E664 /* Main.storyboard */; };
@@ -16,12 +32,6 @@
 		4BCB67A7214244F40094E664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67A6214244F40094E664 /* main.m */; };
 		4BCB67B1214244F40094E664 /* MCPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67B0214244F40094E664 /* MCPickerViewTests.m */; };
 		4BCB67BC214244F40094E664 /* MCPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67BB214244F40094E664 /* MCPickerViewUITests.m */; };
-		4BCB67D7214245E30094E664 /* MCPickerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */; };
-		4BCB67D8214245E30094E664 /* MCPickerListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D2214245E30094E664 /* MCPickerListView.m */; };
-		4BCB67D9214245E30094E664 /* MCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D3214245E30094E664 /* MCPickerView.m */; };
-		4BCB67DA214245E30094E664 /* MCClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCB67D4214245E30094E664 /* MCClose@2x.png */; };
-		4BCB67DB214245E30094E664 /* MCPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D5214245E30094E664 /* MCPickerModel.m */; };
-		4BCB67DC214245E30094E664 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +52,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4B7663A3214A43EF0073F7D8 /* addr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addr.json; sourceTree = "<group>"; };
+		4BBB768021E1A895008E270D /* MCPickerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerHeaderView.h; sourceTree = "<group>"; };
+		4BBB768121E1A895008E270D /* MCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerView.h; sourceTree = "<group>"; };
+		4BBB768221E1A895008E270D /* MCPickerListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerListView.h; sourceTree = "<group>"; };
+		4BBB768321E1A895008E270D /* MCPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerModel.h; sourceTree = "<group>"; };
+		4BBB768421E1A895008E270D /* addr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = addr.json; sourceTree = "<group>"; };
+		4BBB768521E1A895008E270D /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		4BBB768621E1A895008E270D /* MCPickerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerHeaderView.m; sourceTree = "<group>"; };
+		4BBB768721E1A895008E270D /* MCPickerListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerListView.m; sourceTree = "<group>"; };
+		4BBB768821E1A895008E270D /* MCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerView.m; sourceTree = "<group>"; };
+		4BBB768921E1A895008E270D /* MCClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MCClose@2x.png"; sourceTree = "<group>"; };
+		4BBB768A21E1A895008E270D /* MCPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerModel.m; sourceTree = "<group>"; };
+		4BBB768B21E1A895008E270D /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		4BBB769421E1A933008E270D /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		4BBB769521E1A933008E270D /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		4BBB769621E1A933008E270D /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		4BBB769721E1A933008E270D /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		4BBB769821E1A933008E270D /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		4BBB769921E1A933008E270D /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		4BBB769A21E1A933008E270D /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		4BBB769B21E1A933008E270D /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		4BBB769C21E1A933008E270D /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		4BBB769D21E1A933008E270D /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		4BBB769E21E1A933008E270D /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		4BBB769F21E1A933008E270D /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		4BBB76A021E1A933008E270D /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		4BBB76A121E1A933008E270D /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		4BBB76A221E1A933008E270D /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		4BBB76A321E1A933008E270D /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		4BBB76A421E1A933008E270D /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		4BBB76A521E1A933008E270D /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		4BBB76A621E1A933008E270D /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		4BBB76A721E1A933008E270D /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		4BBB76A821E1A933008E270D /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
 		4BCB6794214244F10094E664 /* MCPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCB6797214244F10094E664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4BCB6798214244F20094E664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,17 +101,6 @@
 		4BCB67B7214244F40094E664 /* MCPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MCPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCB67BB214244F40094E664 /* MCPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPickerViewUITests.m; sourceTree = "<group>"; };
 		4BCB67BD214244F40094E664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BCB67CC214245E30094E664 /* MCPickerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerHeaderView.h; sourceTree = "<group>"; };
-		4BCB67CD214245E30094E664 /* MCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerView.h; sourceTree = "<group>"; };
-		4BCB67CE214245E30094E664 /* MCPickerListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerListView.h; sourceTree = "<group>"; };
-		4BCB67CF214245E30094E664 /* MCPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPickerModel.h; sourceTree = "<group>"; };
-		4BCB67D0214245E30094E664 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
-		4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerHeaderView.m; sourceTree = "<group>"; };
-		4BCB67D2214245E30094E664 /* MCPickerListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerListView.m; sourceTree = "<group>"; };
-		4BCB67D3214245E30094E664 /* MCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerView.m; sourceTree = "<group>"; };
-		4BCB67D4214245E30094E664 /* MCClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MCClose@2x.png"; sourceTree = "<group>"; };
-		4BCB67D5214245E30094E664 /* MCPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPickerModel.m; sourceTree = "<group>"; };
-		4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +128,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BBB767F21E1A895008E270D /* MCPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB768021E1A895008E270D /* MCPickerHeaderView.h */,
+				4BBB768121E1A895008E270D /* MCPickerView.h */,
+				4BBB768221E1A895008E270D /* MCPickerListView.h */,
+				4BBB768321E1A895008E270D /* MCPickerModel.h */,
+				4BBB768421E1A895008E270D /* addr.json */,
+				4BBB768521E1A895008E270D /* MyCollectionViewCell.h */,
+				4BBB768621E1A895008E270D /* MCPickerHeaderView.m */,
+				4BBB768721E1A895008E270D /* MCPickerListView.m */,
+				4BBB768821E1A895008E270D /* MCPickerView.m */,
+				4BBB768921E1A895008E270D /* MCClose@2x.png */,
+				4BBB768A21E1A895008E270D /* MCPickerModel.m */,
+				4BBB768B21E1A895008E270D /* MyCollectionViewCell.m */,
+			);
+			path = MCPicker;
+			sourceTree = "<group>";
+		};
+		4BBB769321E1A933008E270D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB769421E1A933008E270D /* MJPropertyKey.h */,
+				4BBB769521E1A933008E270D /* NSObject+MJClass.h */,
+				4BBB769621E1A933008E270D /* NSString+MJExtension.h */,
+				4BBB769721E1A933008E270D /* MJPropertyType.m */,
+				4BBB769821E1A933008E270D /* NSObject+MJProperty.h */,
+				4BBB769921E1A933008E270D /* MJExtensionConst.h */,
+				4BBB769A21E1A933008E270D /* NSObject+MJKeyValue.m */,
+				4BBB769B21E1A933008E270D /* MJProperty.m */,
+				4BBB769C21E1A933008E270D /* MJFoundation.h */,
+				4BBB769D21E1A933008E270D /* NSObject+MJCoding.m */,
+				4BBB769E21E1A933008E270D /* MJExtension.h */,
+				4BBB769F21E1A933008E270D /* MJExtensionConst.m */,
+				4BBB76A021E1A933008E270D /* NSObject+MJProperty.m */,
+				4BBB76A121E1A933008E270D /* MJPropertyType.h */,
+				4BBB76A221E1A933008E270D /* NSObject+MJClass.m */,
+				4BBB76A321E1A933008E270D /* NSString+MJExtension.m */,
+				4BBB76A421E1A933008E270D /* MJPropertyKey.m */,
+				4BBB76A521E1A933008E270D /* MJProperty.h */,
+				4BBB76A621E1A933008E270D /* NSObject+MJKeyValue.h */,
+				4BBB76A721E1A933008E270D /* NSObject+MJCoding.h */,
+				4BBB76A821E1A933008E270D /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		4BCB678B214244F10094E664 = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +198,12 @@
 		4BCB6796214244F10094E664 /* MCPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				4BBB769321E1A933008E270D /* MJExtension */,
 				4BCB6797214244F10094E664 /* AppDelegate.h */,
 				4BCB6798214244F20094E664 /* AppDelegate.m */,
 				4BCB679A214244F20094E664 /* ViewController.h */,
 				4BCB679B214244F20094E664 /* ViewController.m */,
-				4B7663A3214A43EF0073F7D8 /* addr.json */,
-				4BCB67CB214245E30094E664 /* MCPicker */,
+				4BBB767F21E1A895008E270D /* MCPicker */,
 				4BCB679D214244F20094E664 /* Main.storyboard */,
 				4BCB67A0214244F40094E664 /* Assets.xcassets */,
 				4BCB67A2214244F40094E664 /* LaunchScreen.storyboard */,
@@ -151,24 +229,6 @@
 				4BCB67BD214244F40094E664 /* Info.plist */,
 			);
 			path = MCPickerViewUITests;
-			sourceTree = "<group>";
-		};
-		4BCB67CB214245E30094E664 /* MCPicker */ = {
-			isa = PBXGroup;
-			children = (
-				4BCB67CD214245E30094E664 /* MCPickerView.h */,
-				4BCB67D3214245E30094E664 /* MCPickerView.m */,
-				4BCB67CF214245E30094E664 /* MCPickerModel.h */,
-				4BCB67D5214245E30094E664 /* MCPickerModel.m */,
-				4BCB67CC214245E30094E664 /* MCPickerHeaderView.h */,
-				4BCB67D1214245E30094E664 /* MCPickerHeaderView.m */,
-				4BCB67CE214245E30094E664 /* MCPickerListView.h */,
-				4BCB67D2214245E30094E664 /* MCPickerListView.m */,
-				4BCB67D4214245E30094E664 /* MCClose@2x.png */,
-				4BCB67D0214245E30094E664 /* MyCollectionViewCell.h */,
-				4BCB67D6214245E30094E664 /* MyCollectionViewCell.m */,
-			);
-			path = MCPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +335,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BCB67A4214244F40094E664 /* LaunchScreen.storyboard in Resources */,
-				4BCB67DA214245E30094E664 /* MCClose@2x.png in Resources */,
 				4BCB67A1214244F40094E664 /* Assets.xcassets in Resources */,
-				4B7663A4214A43EF0073F7D8 /* addr.json in Resources */,
+				4BBB768C21E1A895008E270D /* addr.json in Resources */,
 				4BCB679F214244F20094E664 /* Main.storyboard in Resources */,
+				4BBB769021E1A895008E270D /* MCClose@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +363,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BBB76A921E1A933008E270D /* MJPropertyType.m in Sources */,
+				4BBB76AD21E1A933008E270D /* MJExtensionConst.m in Sources */,
 				4BCB679C214244F20094E664 /* ViewController.m in Sources */,
-				4BCB67D7214245E30094E664 /* MCPickerHeaderView.m in Sources */,
-				4BCB67D9214245E30094E664 /* MCPickerView.m in Sources */,
+				4BBB76B221E1A933008E270D /* MJFoundation.m in Sources */,
+				4BBB76AF21E1A933008E270D /* NSObject+MJClass.m in Sources */,
+				4BBB768D21E1A895008E270D /* MCPickerHeaderView.m in Sources */,
+				4BBB768F21E1A895008E270D /* MCPickerView.m in Sources */,
+				4BBB76B121E1A933008E270D /* MJPropertyKey.m in Sources */,
 				4BCB67A7214244F40094E664 /* main.m in Sources */,
-				4BCB67D8214245E30094E664 /* MCPickerListView.m in Sources */,
-				4BCB67DB214245E30094E664 /* MCPickerModel.m in Sources */,
-				4BCB67DC214245E30094E664 /* MyCollectionViewCell.m in Sources */,
+				4BBB768E21E1A895008E270D /* MCPickerListView.m in Sources */,
+				4BBB76B021E1A933008E270D /* NSString+MJExtension.m in Sources */,
+				4BBB769121E1A895008E270D /* MCPickerModel.m in Sources */,
+				4BBB769221E1A895008E270D /* MyCollectionViewCell.m in Sources */,
+				4BBB76AE21E1A933008E270D /* NSObject+MJProperty.m in Sources */,
+				4BBB76AC21E1A933008E270D /* NSObject+MJCoding.m in Sources */,
+				4BBB76AA21E1A933008E270D /* NSObject+MJKeyValue.m in Sources */,
 				4BCB6799214244F20094E664 /* AppDelegate.m in Sources */,
+				4BBB76AB21E1A933008E270D /* MJProperty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

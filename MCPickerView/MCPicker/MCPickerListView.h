@@ -10,7 +10,7 @@
 @class MCPickerListView;
 @class MCPickerModel;
 @protocol MCPickerListViewDelegate<NSObject>
-- (void)MCPickerListView:(MCPickerListView *)MCPickerListView didSelcetedValue:(MCPickerModel *)Value;
+- (void)MCPickerListView:(MCPickerListView *)MCPickerListView didSelcetedValue:(MCPickerModel *)value;
 @end
 @interface MCPickerListView : UIView
 

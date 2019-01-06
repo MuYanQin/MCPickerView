@@ -12,47 +12,45 @@
 @protocol MCPickerViewDelegate<NSObject>
 
 /**
- 点击回调Cell的回调
-
+ 点击Cell的回调  返回下一个视图需要的数据数组
  @param MCPickerView MCPickerView description
- @param Row 点击的第一个视图
+ @param tier 点击的第几层
  @param value 点击那一列的数据
  */
-- (void)MCPickerView:(MCPickerView *)MCPickerView didSelcetedRow:(NSInteger)Row  value:(MCPickerModel *)value;
-
+- (NSMutableArray<MCPickerModel *> *)MCPickerView:(MCPickerView *)MCPickerView didSelcetedTier:(NSInteger)tier  selcetedValue:(MCPickerModel *)value;
 
 /**
- 选择完成的回调
+ 完成时候的回调
 
  @param MCPickerView MCPickerView description
- @param complete 选择完成拼接的字符串
+ @param complete 完成时候返回拼接的字符串
  */
-- (void)MCPickerView:(MCPickerView *)MCPickerView complete:(NSString *)complete;
+@required
+- (void)MCPickerView:(MCPickerView *)MCPickerView completeArray:(NSMutableArray<MCPickerModel *> *)comArray completeStr:(NSString *)comStr ;
+
 @end
+
+
 @interface MCPickerView : UIView
+
 @property (nonatomic , weak) id<MCPickerViewDelegate>  delegate;
-
-/**
- 总共有几层结束 必须设置
- */
-@property (nonatomic , assign) NSInteger  totalLevel;
-
-/**
- 每一层的数据数组
- */
-@property (nonatomic , strong) NSArray * dataArray;
 
 /**
  选择窗的title
  */
 @property (nonatomic , copy) NSString * titleText;
 
+/**
+ 每一层的数据数组
+ */
+@property (nonatomic , strong) NSArray<MCPickerModel *> *dataArray;
+
 
 /**
- 给每一层数据添加数据源 与默认选择的 字符串  无默认选择的话 推荐使用 setDataArray
+ 给每一层数据添加数据源 有默认选择的字符串   无默认选择的话推荐使用 setDataArray
 
  @param dataArray 数据源
  @param Text 默认选择的字符串
  */
-- (void)setData:(NSArray *)dataArray  selectText:(NSString *)Text;
+- (void)setData:(NSArray<MCPickerModel *> *)dataArray  selectText:(NSString *)Text;
 @end

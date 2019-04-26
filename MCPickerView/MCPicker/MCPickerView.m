@@ -46,10 +46,10 @@ static NSInteger const PickerViewHeight = 350;//
     BGView.alpha = 0.5;
     [self addSubview:BGView];
     
-    UIView *ContentView = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height - 350, self.frame.size.width, 350)];
+    UIView *ContentView = [[UIView alloc]initWithFrame:CGRectMake(0, self.frame.size.height - 350 - MCBottomDistance, self.frame.size.width, 350)];
     ContentView.backgroundColor = [UIColor whiteColor];
     [self addSubview:ContentView];
-
+    
     self.TitleLb = [[UILabel alloc]initWithFrame:CGRectMake(0, 10,self.frame.size.width , 15)];
     self.TitleLb.textColor = [UIColor grayColor];
     self.TitleLb.textAlignment = NSTextAlignmentCenter;
@@ -89,6 +89,7 @@ static NSInteger const PickerViewHeight = 350;//
     self.headerDataArray  = [self.headerDataArray subarrayWithRange:NSMakeRange(0, MCPickerListView.tag)].mutableCopy;
     [self.headerDataArray addObject:value.name];
     [self.headerDataArray addObject:@"请选择"];
+    
     NSMutableArray<MCPickerModel *> * array;
     if ([self.delegate respondsToSelector:@selector(MCPickerView:didSelcetedTier:selcetedValue:)]) {
         array =  [self.delegate MCPickerView:self didSelcetedTier:MCPickerListView.tag selcetedValue:value];
@@ -101,7 +102,7 @@ static NSInteger const PickerViewHeight = 350;//
         [self hiddenClick];
     }
     if (array.count ==0 && [self.delegate respondsToSelector:@selector(MCPickerView:completeArray:completeStr:)]) {
-        [self.delegate MCPickerView:self completeArray:self.dataArrays completeStr:[self.headerDataArray componentsJoinedByString:@""]];
+        [self.delegate MCPickerView:self completeArray:self.headerDataArray completeStr:[self.headerDataArray componentsJoinedByString:@""]];
     }
     self.header.dataArray = self.headerDataArray;
 }
@@ -141,7 +142,15 @@ static NSInteger const PickerViewHeight = 350;//
     [self.ScrollView addSubview:ListView];
     self.ScrollView.contentSize = CGSizeMake(self.frame.size.width *self.dataArrays.count, 0);
     [self.ScrollView setContentOffset:CGPointMake((self.frame.size.width *(self.dataArrays.count - 1)),0) animated:YES];
+    NSArray *tempArray = self.listViewArray.copy;
+    [tempArray enumerateObjectsUsingBlock:^(MCPickerListView * obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (idx >= self.dataArrays.count-1) {
+            [obj removeFromSuperview];
+            [self.listViewArray removeObject:obj];
+        }
+    }];
     [self.listViewArray addObject:ListView];
+    
 }
 - (void)hiddenClick
 {
